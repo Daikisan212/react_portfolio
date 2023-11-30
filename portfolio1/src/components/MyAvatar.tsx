@@ -19,7 +19,7 @@ function MyAvatar() {
                 </Box>
                 <Box display='flex' justifyContent='center' p={1} >
                     <Typography variant='h5' >
-                        DAIKI YOKOYAMA
+                        DAIKI YOKOYAMA (↑うちの猫です)
                     </Typography>
                 </Box>
                 <Box display='flex' justifyContent='center' p={1} >
