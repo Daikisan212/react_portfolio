@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography'
 //写真をインポートする
 import ImageFIle from '../static/images/20230618_124430.jpg';
 
+//アバター
 function MyAvatar() {
     return (
         <>

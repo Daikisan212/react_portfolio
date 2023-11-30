@@ -3,6 +3,7 @@ import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
 import Button from '@mui/material/Button'
 
+//ナビゲーションバー
 function NavBar() {
     return (
         <>
@@ -23,6 +24,12 @@ function NavBar() {
                     </Button>
                     <Button color='inherit'>
                         CONTACT
+                    </Button>
+                    <Button color='inherit'>
+                        PortFolio
+                    </Button>
+                    <Button color='inherit'>
+                        Neko
                     </Button>
                 </Toolbar>
             </AppBar>
