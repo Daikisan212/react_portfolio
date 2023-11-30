@@ -18,8 +18,13 @@ function MyAvatar() {
                     />
                 </Box>
                 <Box display='flex' justifyContent='center' p={1} >
-                    <Typography variant='h5' >
-                        DAIKI YOKOYAMA (↑うちの猫です)
+                    <Typography variant='h4' >
+                        横山大希
+                    </Typography>
+                </Box>
+                <Box display='flex' justifyContent='center' p={1} >
+                    <Typography variant='h6' >
+                        DAIKI YOKOYAMA
                     </Typography>
                 </Box>
                 <Box display='flex' justifyContent='center' p={1} >
