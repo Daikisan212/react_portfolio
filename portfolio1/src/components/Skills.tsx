@@ -21,7 +21,7 @@ function Skills () {
                                 言語
                             </Typography>
                             <Typography color="textSecondary">
-                                HTML / JavaScript / TypeScript / PHP / Python 
+                                HTML / JavaScript / TypeScript / PHP / Python / PowerApps
                             </Typography>
                         </CardContent>
                     </Card>

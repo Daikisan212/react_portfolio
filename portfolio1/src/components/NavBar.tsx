@@ -2,6 +2,7 @@ import React from 'react';
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
 import Button from '@mui/material/Button'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 //ナビゲーションバー
 function NavBar() {
@@ -13,21 +14,39 @@ function NavBar() {
             style={{alignItems: 'center'}}
             >
                 <Toolbar>
-                    <Button>
-                        ABOUT
-                    </Button>
-                    <Button color='inherit'>
-                        SKILLS
-                    </Button>
-                    <Button color='inherit'>
-                        Works
-                    </Button>
-                    <Button color='inherit'>
-                        CONTACT
-                    </Button>
-                    <Button color='inherit'>
-                        PortFolio
-                    </Button>
+                    <AnchorLink href='#about' style={{
+                        textDecoration: 'none',
+                        color: 'inherit'
+                    }}>
+                        <Button>
+                            ABOUT
+                        </Button>
+                    </AnchorLink>
+                    <AnchorLink href='#skills' style={{
+                        textDecoration: 'none',
+                        color: 'inherit'
+                    }}>
+                        <Button color='inherit'>
+                            SKILLS
+                        </Button>
+                    </AnchorLink>
+                    <AnchorLink href='#contact' style={{
+                        textDecoration: 'none',
+                        color: 'inherit'
+                    }}>
+                        <Button color='inherit'>
+                            CONTACT
+                        </Button>
+                    </AnchorLink>
+                    <AnchorLink href='#contact' style={{
+                        textDecoration: 'none',
+                        color: 'inherit'
+                    }}>
+                        <Button color='inherit'>
+                            PortFolio
+                        </Button>
+                    </AnchorLink>
+                    
                     <Button color='inherit'>
                         Neko
                     </Button>

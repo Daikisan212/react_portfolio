@@ -14,7 +14,7 @@ function About() {
                 </Box>
                 <Box display='flex' justifyContent='center' p={1}>
                     <Typography variant='body1' align='left' color={'GrayText'} lineHeight={2}>
-                        栃木県に住んでいて、東京まで通勤していました。<br />
+                        栃木県に住んでいます。<br />
                         好きな言語はHTMLとTypeScriptです。<br />
                         パソコンはWindows派です。
                     </Typography>

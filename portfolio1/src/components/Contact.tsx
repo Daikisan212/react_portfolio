@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { green, blue, purple } from '@mui/material/colors'
+import { green, purple } from '@mui/material/colors'
 
 function Contact () {
     return (
@@ -18,13 +18,13 @@ function Contact () {
             </Box>
             <Box display='flex' justifyContent='center' p={1}> 
                 {/* Eメールのアイコン */}
-                <Link href='#' color='inherit'>
+                <Link href='mailto:daikii0212@gmail.com' color='inherit'>
                     <Avatar sx={{bgcolor:green[500]}}>
                         <EmailIcon />
                     </Avatar>
                 </Link>
                 {/* GitHubのアイコン */}
-                <Link href='#' color='inherit' marginLeft={3}>
+                <Link href='https://github.com/Daikisan212' target="_blank" color='inherit' marginLeft={3}>
                     <Avatar sx={{bgcolor:purple[500]}}>
                         <GitHubIcon />
                     </Avatar>
