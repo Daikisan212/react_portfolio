@@ -5,7 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import PortFolio from './components/PortFolio';
-import Neko from './components/PortFolio';
+import Neko from './components/Neko';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
         <PortFolio />
       </section>
       <section id='neko'>
-        
+        <Neko />
       </section>
     </>
   );
