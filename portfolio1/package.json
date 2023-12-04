@@ -1,5 +1,5 @@
 {
-  "homepage": "https://daikisan212.github.io//react_portfolio/",
+  "homepage": "https://daikisan212.github.io/react_portfolio/",
   "name": "portfolio1",
   "version": "0.1.0",
   "private": true,
@@ -23,8 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "rm -rf docs && npm run build && mv build docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
