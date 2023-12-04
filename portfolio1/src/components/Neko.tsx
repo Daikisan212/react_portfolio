@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography'
 function Neko() {
     return (
         <>
-        
+            <Box p={2}></Box>
         </>
     );
 }

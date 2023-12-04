@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "rm -rf docs && npm run build && mv build docs",
+    "deploy": "npm run build && gh-pages -d build -m \"Updates --skip-ci\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
